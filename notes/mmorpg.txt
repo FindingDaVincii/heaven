@@ -9,11 +9,44 @@ Current site stats:
 
 Color Grabbing:
 
+
+link-color: #70B9ED; light blue color
+hover-color: #F1C36B; orange color also links next to slider and forum activity
+font: default : white #fff
+font-family: sans-serif  whole site
+font size: 14px;
+
+
 trending bar
     bg #263442;
     border: 1px solid #4b4b4b;
+    full width;
+    margin centered content
+    14px
+    24px height
 
-link-color: #70B9ED; light blue color
-hover-color: #F1C36B; orange color
-font: default : white #fff
-font-family: sans-serif  whole site
+network
+  full width
+  bg black
+  margin centered content
+  36px height
+  font-size: 0.9em
+
+
+
+bg page wrap, centered
+  bg color #0b0f14;
+
+
+clickable adspace for bg ad 135px height
+  width: page/content width, not full
+
+nav
+  14px font
+  37px height
+  990px width
+  color : white bold
+  35px line height
+  whtie-space nowrap
+  padding 0 11 0 5
+  
