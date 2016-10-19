@@ -1,0 +1,19 @@
+Recoding mmorpg.com to have a responsive layout and functionality
+
+- keeping fonts and colors to speed up work
+- using their images but will combine in some sprites
+
+Current site stats:
+@4Mb/s download:
+  279 requests | 2.7 MB | Finish: 28.43s | DOMLoad: 3.5s | Load: 6.32s
+
+Color Grabbing:
+
+trending bar
+    bg #263442;
+    border: 1px solid #4b4b4b;
+
+link-color: #70B9ED; light blue color
+hover-color: #F1C36B; orange color
+font: default : white #fff
+font-family: sans-serif  whole site
