@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="../styles/mmorpgstyle.css">
 
 </head><body>
-  <div class="trending">
+  <div class="trending clear">
     <div class="wrap margin-center">
       <strong>Trending</strong> |
       <a href="#">Revelation</a> |
@@ -22,7 +22,7 @@
       </div>
     </div>
   </div>
-  <div class="networkbar">
+  <div class="networkbar clear">
     <div class="wrap margin-center">
       <form class="network-login" action="index.html" method="post">
         <strong>Login:</strong>
