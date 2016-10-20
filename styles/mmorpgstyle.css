@@ -32,7 +32,7 @@ body{
   background: #0b0f14 url('../img/mmorpg/bgwrap_eso.jpg') no-repeat;
   /* get around wrap by simple bg positioning */
   background-position: 50% 62px;
-  1background-size: cover; /* better scaling but may have to disable */
+
 }
 
 img{
@@ -141,15 +141,12 @@ form{
 /*********************************** END networkbar ************************************/
 .spacer135{ /*we keep as fallback incase no link */
   height:135px;
+  margin-bottom:10px;
 }
 .spacer135 a{
   display: block;
   height: 135px;
   text-indent: -9999px;
-}
-
-.tophead{
-  margin-top:10px;
 }
 
 .logo,
@@ -201,16 +198,16 @@ nav::after{
   display: table;
   clear: both;
 }
-nav ul li{
+nav > ul li{
   float: left;
 }
 
-nav ul li a{
+nav > ul li a{
   display: block;
   padding:0 11px 0 5px;
   height:35px;
   line-height: 35px;
-  color:#fff;
+  color:#fff !important;
   text-decoration: none;
   background: url('../img/mmorpg/frame_r3_nav_tabs.gif') no-repeat bottom right;
   text-align: center;
@@ -219,26 +216,26 @@ nav ul li a{
   white-space: nowrap;
 }
 
-nav ul li a:hover{
+nav > ul li a:hover{
   background-position: top right;
   text-decoration: none;
   color:#fff;
 }
 
-nav ul li:first-child a{
+nav > ul li:first-child a{
   background: url('../img/mmorpg/frame_r3_nav_tabs_c.gif') no-repeat top right;
   padding-left:12px;
   border-top-left-radius: 10px;
 }
-nav ul li:first-child a:hover{
+nav > ul li:first-child a:hover{
   background: url('../img/mmorpg/frame_r3_nav_tabs.gif') no-repeat top right;
 }
-nav ul li:last-child a{
+nav > ul li:last-child a{
   background: url('../img/mmorpg/frame_r3_nav_tabs_live.gif') no-repeat;
   width:176px;
   border-top-right-radius: 10px;
 }
-nav ul li:last-child a:hover{
+nav > ul li:last-child a:hover{
   background: url('../img/mmorpg/frame_r3_nav_tabs.gif') no-repeat top left;
 }
 
@@ -256,4 +253,71 @@ nav .livestream{
 
 nav .livestream:hover{
   background: url('../img/mmorpg/frame_r3_nav_tabs.gif') no-repeat top right;
+}
+
+/**************************** END nav *******************************************/
+
+.col-80{
+  float: left;
+  width:800px;
+  overflow: hidden;
+
+}
+.col-20{
+  float: left;
+  width:200px;
+}
+.feature{
+  width:796px;
+  height:356px;
+  background: #000;
+  border:2px solid #4b4b4b;
+  border-radius: 10px;
+}
+
+.slider{
+  position: relative;
+  width:490px;
+  height:294px;
+  overflow: hidden;
+}
+
+.slider a{
+  display: block;
+  position: absolute;
+  width:490px;
+  height:294px;
+  top:0px;
+  background: url('../img/mmorpg/sliderpic1.jpg') no-repeat;
+  font-size: .875rem;
+  color:#ebebeb;
+}
+
+.slider > a:hover{
+  color:#70B9ED;
+  text-decoration: none;
+}
+
+.slider-text{
+  position: relative;
+  top:224px;
+  line-height: 15px;
+  padding: 8px 0px 0px 7px;
+  overflow: hidden;
+  width:473px;
+}
+
+
+.slider-text-title{
+  font-weight: bold;
+  color:#fff;
+}
+
+
+.slider-nav{
+  position: relative;
+  width:490px;
+  height:58px;
+  overflow: hidden;
+  padding-left:2px;
 }
