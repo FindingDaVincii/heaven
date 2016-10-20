@@ -48,6 +48,40 @@
       </div>
     </div>
   </div>
+  <!-- end networkbar -->
+  <div class="spacer135 wrap margin-center tophead">
+    <a href="#">top spacer135</a>
+  </div>
+  <header class="wrap margin-center clear">
+    <div class="logo">
+      <a href="#"><img src="../img/mmorpg/logo.jpg" alt="" width="230" height="62"/></a>
+    </div>
+    <div class="site-stats clear">
+      Members:<span>3,403,592</span> Users Online:<span>1,469</span> Games:<span>940</span>
+    </div>
+    <div class="spacer728x90">
+      spacer 728x90
+    </div>
+    <div class="gameon">
+      <a href="#">gameon banner</a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Game List</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Articles</a></li>
+        <li><a href="#">Videos</a></li>
+        <li><a href="#">MMO Blogs</a></li>
+        <li><a class="active" href="#">Forums</a></li>
+        <li><a href="#">Search</a></li>
+        <li><a href="#">Store</a></li>
+        <li><a class="livestream" href="#">3 Live Streams</a></li>
+        <li><a href="#">Play Now</a></li>
+      </ul>
+    </nav>
+  </header>
 
 
 </body></html>

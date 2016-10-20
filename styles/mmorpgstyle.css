@@ -21,14 +21,31 @@ a:hover{
   color:#F1C36B;
 }
 
+ol,ul{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
 body{
   margin:0;
-  background: #0b0f14;
+  background: #0b0f14 url('../img/mmorpg/bgwrap_eso.jpg') no-repeat;
+  /* get around wrap by simple bg positioning */
+  background-position: 50% 62px;
+  1background-size: cover; /* better scaling but may have to disable */
 }
 
 img{
   border-style: none;
   max-width: 100%;
+}
+
+header{
+  position: relative;
+}
+
+form{
+  display: inline-block;
 }
 
 .margin-center{
@@ -72,10 +89,6 @@ img{
   content: " ";
   display: table;
   clear: both;
-}
-
-form{
-  display: inline-block;
 }
 
 .network-login input[type="text"],
@@ -126,3 +139,121 @@ form{
   background-position: top left;
 }
 /*********************************** END networkbar ************************************/
+.spacer135{ /*we keep as fallback incase no link */
+  height:135px;
+}
+.spacer135 a{
+  display: block;
+  height: 135px;
+  text-indent: -9999px;
+}
+
+.tophead{
+  margin-top:10px;
+}
+
+.logo,
+.spacer728x90{
+  vertical-align: top;
+}
+
+.site-stats{
+  width:240px; /*same as logo width */
+  text-align: center;
+  color:#628AAF;
+  font-size: .75rem;
+  margin-bottom: 10px;
+}
+
+.site-stats span{
+  color:#85ACD0;
+  font-weight: bold;
+}
+
+.spacer728x90{
+  width:728px;
+  height:90px;
+  background: blue;
+  position: absolute;
+  top:5px;
+  left:250px;
+  text-align: center;
+  line-height: 90px;
+}
+
+.gameon{
+  background: #000;
+  margin-bottom: 5px;
+}
+
+.gameon a{
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-indent: -9999px; /*change to normal to get back text if non-img ad */
+}
+/********************* END gameon **********************************************/
+nav{
+  background: transparent;
+}
+nav::after{
+  content: " ";
+  display: table;
+  clear: both;
+}
+nav ul li{
+  float: left;
+}
+
+nav ul li a{
+  display: block;
+  padding:0 11px 0 5px;
+  height:35px;
+  line-height: 35px;
+  color:#fff;
+  text-decoration: none;
+  background: url('../img/mmorpg/frame_r3_nav_tabs.gif') no-repeat bottom right;
+  text-align: center;
+  font-weight: bold;
+  font-size: .875rem;
+  white-space: nowrap;
+}
+
+nav ul li a:hover{
+  background-position: top right;
+  text-decoration: none;
+  color:#fff;
+}
+
+nav ul li:first-child a{
+  background: url('../img/mmorpg/frame_r3_nav_tabs_c.gif') no-repeat top right;
+  padding-left:12px;
+  border-top-left-radius: 10px;
+}
+nav ul li:first-child a:hover{
+  background: url('../img/mmorpg/frame_r3_nav_tabs.gif') no-repeat top right;
+}
+nav ul li:last-child a{
+  background: url('../img/mmorpg/frame_r3_nav_tabs_live.gif') no-repeat;
+  width:176px;
+  border-top-right-radius: 10px;
+}
+nav ul li:last-child a:hover{
+  background: url('../img/mmorpg/frame_r3_nav_tabs.gif') no-repeat top left;
+}
+
+nav .active{
+  background: url('../img/mmorpg/frame_r3_nav_tabs_c.gif') no-repeat top right;
+}
+nav .active:hover{
+  background: url('../img/mmorpg/frame_r3_nav_tabs.gif') no-repeat top right;
+}
+
+nav .livestream{
+  background: url('../img/mmorpg/frame_r3_nav_tabs_live.gif') no-repeat right top;
+  padding:0 20px;
+}
+
+nav .livestream:hover{
+  background: url('../img/mmorpg/frame_r3_nav_tabs.gif') no-repeat top right;
+}
