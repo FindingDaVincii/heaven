@@ -268,6 +268,7 @@ nav .livestream:hover{
   width:200px;
 }
 .feature{
+  position: relative; /* to allow child positioning */
   width:796px;
   height:356px;
   background: #000;
@@ -320,4 +321,55 @@ nav .livestream:hover{
   height:58px;
   overflow: hidden;
   padding-left:2px;
+}
+
+
+.column-features{
+  position: absolute;
+  width:300px;
+  padding:0 5px 5px 5px;
+  top:0;
+  right:0;
+  bottom:0;
+  overflow: hidden;
+}
+
+.feature-title{
+  color:#70b9ed;
+  font-weight: bold;
+  font-size: .9375rem;
+
+}
+.column-features ul > li{
+  margin-bottom: 5px;
+  font-size: .8125rem;
+  color:#9a9a9a;
+}
+
+.column-features ul > li.lates > a{
+  display: block;
+  padding-left: 18px;
+  color:#f1c36b;
+  background:url('../img/mmorpg/item_icon_all.gif') no-repeat left center;
+}
+.column-features ul > li.interv > a{
+  display: block;
+  padding-left: 18px;
+  color:#f1c36b;
+  background:url('../img/mmorpg/item_icon_interview.gif') no-repeat left center;
+}
+
+.more-features{
+  display: block;
+  position: absolute;
+  bottom:0;
+  right:1px;
+  width: 126px;
+  height: 16px;
+  background: url('../img/mmorpg/item_home_morefeat.gif') no-repeat bottom left;
+  text-indent: -9999px;
+}
+
+.more-features:hover{
+  background-position: top left;
 }

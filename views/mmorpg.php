@@ -92,18 +92,92 @@
               <div class="slider-text-title">
                 Skyforge: Ascension - Don't Call it a Comback
               </div>
-              Skyforge’s big expansion Ascension launches today, and we’ve been playing the game’s pre-patch changes in anticipation of the big update. What we’ve found are a slew of very welcome changes to a game that seemed needlessly complex at launch. 
+              Skyforge’s big expansion Ascension launches today, and we’ve been playing the game’s pre-patch changes in anticipation of the big update. What we’ve found are a slew of very welcome changes to a game that seemed needlessly complex at launch.
             </div>
           </a>
         </div>
         <div class="slider-nav">
           slider nav
         </div>
-      </div>
-    </div>
+
+
+        <div class="column-features">
+          <div>
+            <a class="feature-title" href="#">MMORPG.com Exclusives</a>
+          </div>
+          <ul>
+            <li class="lates">
+              <div>
+                Riders of Icarus - <em>Developer Journals</em>
+              </div>
+              <a href="#">More About Mounts</a>
+            </li>
+            <li class="interv">
+              <div>
+                Riders of Icarus - <em>Developer Journals</em>
+              </div>
+              <a href="#">More About Mounts some super long word about something else</a>
+            </li>
+            <li class="lates">
+              <div>
+                Riders of Icarus - <em>Developer Journals</em>
+              </div>
+              <a href="#">More About Mounts</a>
+            </li>
+            <li class="interv">
+              <div>
+                Riders of Icarus - <em>Developer Journals</em>
+              </div>
+              <a href="#">More About Mounts some super long word about something else</a>
+            </li>
+            <li class="lates">
+              <div>
+                Riders of Icarus - <em>Developer Journals</em>
+              </div>
+              <a href="#">More About Mounts</a>
+            </li>
+            <li class="interv">
+              <div>
+                Riders of Icarus - <em>Developer Journals</em>
+              </div>
+              <a href="#">More About Mounts some super long word about something else</a>
+            </li>
+            <li class="lates">
+              <div>
+                Riders of Icarus - <em>Developer Journals</em>
+              </div>
+              <a href="#">More About Mounts</a>
+            </li>
+            <li class="interv">
+              <div>
+                Riders of Icarus - <em>Developer Journals</em>
+              </div>
+              <a href="#">More About Mounts some super long word about something else</a>
+            </li>
+            <li class="lates">
+              <div>
+                Riders of Icarus - <em>Developer Journals</em>
+              </div>
+              <a href="#">More About Mounts</a>
+            </li>
+            <li class="interv">
+              <div>
+                Riders of Icarus - <em>Developer Journals</em>
+              </div>
+              <a href="#">More About Mounts some super long word about something else</a>
+            </li>
+          </ul>
+          <a class="more-features" href="#"></a>
+        </div>
+
+
+      </div><!-- end of feature -->
+
+
+    </div><!-- end of col-80 -->
     <div class="col-20">
       hello
-    </div>
-  </div>
+    </div><!-- end of col-20 -->
+  </div><!-- end of wrap -->
 
 </body></html>
