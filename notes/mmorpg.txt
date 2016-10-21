@@ -7,6 +7,11 @@ Current site stats:
 @4Mb/s download:
   279 requests | 2.7 MB | Finish: 28.43s | DOMLoad: 3.5s | Load: 6.32s
 
+  funny thing when removing the js from the original, found there was 32kb worth of js
+  embeded inside the page :(  not to mention the 12+ scripts it loads!!!
+
+  
+
 Color Grabbing:
 
 
@@ -49,4 +54,3 @@ nav
   35px line height
   whtie-space nowrap
   padding 0 11 0 5
-  
